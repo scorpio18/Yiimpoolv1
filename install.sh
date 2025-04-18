@@ -42,7 +42,7 @@ install_git() {
 clone_or_update_repo() {
   if [ ! -d "$YIIMPOOL_INSTALL_DIR" ]; then
     echo "Cloning Yiimpool Installer ${TAG}..."
-    git clone -b "${TAG}" --depth 1 https://github.com/afiniel/Yiimpoolv1 "$YIIMPOOL_INSTALL_DIR" < /dev/null
+    git clone -b "${TAG}" --depth 1 https://github.com/scorpio18/Yiimpoolv1 "$YIIMPOOL_INSTALL_DIR" < /dev/null
     echo "Repository cloned."
   else
     echo "Updating Yiimpool Installer to ${TAG}..."
