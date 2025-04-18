@@ -312,7 +312,7 @@ case $response in
                   PHPMyAdminUser='${PHPMyAdminUser}'
                   PHPMyAdminPassword='${PHPMyAdminPassword}'
                   BlocknotifyPassword='${BlocknotifyPassword}'
-                  YiiMPRepo='https://github.com/Kudaraidee/yiimp.git'" | sudo -E tee "$STORAGE_ROOT/yiimp/.yiimp.conf" >/dev/null 2>&1
+                  YiiMPRepo='https://github.com/tpfuemp/yiimp.git'" | sudo -E tee "$STORAGE_ROOT/yiimp/.yiimp.conf" >/dev/null 2>&1
         else
             echo "STORAGE_USER=${STORAGE_USER}
                   STORAGE_ROOT=${STORAGE_ROOT}
@@ -336,7 +336,7 @@ case $response in
                   PHPMyAdminUser='${PHPMyAdminUser}'
                   PHPMyAdminPassword='${PHPMyAdminPassword}'
                   BlocknotifyPassword='${BlocknotifyPassword}'
-                  YiiMPRepo='https://github.com/Kudaraidee/yiimp.git'" | sudo -E tee "$STORAGE_ROOT/yiimp/.yiimp.conf" >/dev/null 2>&1
+                  YiiMPRepo='https://github.com/tpfuemp/yiimp.git'" | sudo -E tee "$STORAGE_ROOT/yiimp/.yiimp.conf" >/dev/null 2>&1
         fi
         ;;
     1)
